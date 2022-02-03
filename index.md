@@ -1,37 +1,86 @@
-## Welcome to GitHub Pages
+ <html>
+ <head>
+ <title>我的主页</title>
+<script>
+function die(){
+alert('点我干啥')；}
+</script>
+</head>
+<body bgcolor="pink">
+ <font size="7"color="red">欢迎光临</font>
+ <b>加粗</b>
+<i>斜体</i>
 
-You can use the [editor on GitHub](https://github.com/Fuyun2022/Fun/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+<u>下划线</u>
+<a href="#1">点这里</a>
+<hr><!--www.baidu.com-->
+<font>猜猜谁是真的</font>
+<ul type="square">
+<li><font color="blue"><u>www.baidu.com</u></font></li>
+<li><a href="http://www.baidu.com">www.baidu.com</ax</li>
+<li><a href="javascript:die()">www.baidu.com</a></li>
+</ul>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+<hr><!--奇怪的表格-->
+<table border="1">
 
-### Markdown
+<caption>奇怪的表格</caption>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+<tr height="100"align="center">
 
-```markdown
-Syntax highlighted code block
+<td width="100">
+<table border="1">
+<tr height="50">
+<td width="50">
+<table border="1"width="50"height="50">
+<tr><td>1</td><td>2</td></tr>
+<tr><td>3</td><td>4</td></tr>
+ </table>
+</td>
+<th width="50">01</td></th>
+<tr height="50"><td width="50">10</td><td width="50">11</td></tr>
+ </table>
+</td>
+<td width="100">12</td>
+<td width="100"rowspan="2">13</td>
+ </tr>
+<tr height="100"align="center"><td>21</td><td>22</td></tr>
+<tr height="100"align="center"><td colspan="2">31</td>
 
-# Header 1
-## Header 2
-### Header 3
+<td><img alt:="缺少图片文件"src="1.jpg"width="1oo"height="1oo"></td></tr>46</table>
 
-- Bulleted
-- List
+<hr><!--锚点-->
 
-1. Numbered
-2. List
+<a names="1>到这里了</a>
 
-**Bold** and _Italic_ and `Code` text
+<hr><!--注册-->
 
-[Link](url) and ![Image](src)
-```
+ <form action="http://www.baidu.com">
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+用户名：<input type="text>
 
-### Jekyll Themes
+ <br>
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Fuyun2022/Fun/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+ 密码：<input type="password">
 
-### Support or Contact
+<br>
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+性别：
+<input type="radio"name="sex"value="male">
+<input type="radio"name="sex"value="female">
+<br>
+爱好：
+<input type="checkbox"name="hobby"value="football">
+<input type="checkbox" name="hobby"value="basketball">篮球
+<input type="checkbox"name="hobbyt"value="badminton">羽毛球
+<input type="checkbox"name="hobby"value="study"checked="checked">64 其他：<input type="text="name="hobby">
+<br>
+头像：
+<input type="file"name="photo">
+<br>
+<input type="button"value=u普通按钮">
+<input type="submit"value="提交按钮">
+<input type="reset"value="重置按钮t>
+</form>
+</body>
+</html>
